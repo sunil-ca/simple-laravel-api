@@ -117,6 +117,11 @@ The response:
 
 ## To test this REST API - Postman has been used
 
+Create User:
+![image](https://user-images.githubusercontent.com/31904334/46275955-a9a20280-c52c-11e8-9886-ce00446d6443.png)
+
+
+Get User By ID:
 ![image](https://user-images.githubusercontent.com/31904334/46275866-5a5bd200-c52c-11e8-95f9-f3d2f4db2e9a.png)
 
 
