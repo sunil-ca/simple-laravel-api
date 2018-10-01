@@ -5,4 +5,6 @@ Following controller contains all the REST API methods:
       simple-laravel-api/app/Http/Controllers/usersController.php
     
 
+
+
 `users?role=bar`
