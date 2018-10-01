@@ -7,7 +7,7 @@ Following controller contains all the REST API methods:
 
 
 
-#Following End-Point will return all the users with role = bar
+# Following End-Point will return all the users with role = bar
 
 ```users?role=bar```
 
@@ -28,20 +28,6 @@ Following controller contains all the REST API methods:
             "role": "bar",
             "created_at": "2018-10-01 03:29:13",
             "updated_at": "2018-10-01 03:29:13"
-        },
-        {
-            "id": "2ccbf730-c52a-11e8-a1b8-13b4579bb3bc",
-            "name": "cookie bars",
-            "role": "bar",
-            "created_at": "2018-10-01 03:29:16",
-            "updated_at": "2018-10-01 03:29:16"
-        },
-        {
-            "id": "2d938600-c52a-11e8-8fb1-d1c0b6bf1254",
-            "name": "cookie bars",
-            "role": "bar",
-            "created_at": "2018-10-01 03:29:17",
-            "updated_at": "2018-10-01 03:29:17"
         }
     ]
 }
