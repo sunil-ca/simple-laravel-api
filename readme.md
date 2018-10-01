@@ -194,3 +194,7 @@ Get User By ID:
 ![image](https://user-images.githubusercontent.com/31904334/46275866-5a5bd200-c52c-11e8-95f9-f3d2f4db2e9a.png)
 
 
+Database Screenshot:
+
+![image](https://user-images.githubusercontent.com/31904334/46290133-fdc2dc00-c558-11e8-9b9f-d9ca2fdc5d5b.png)
+
