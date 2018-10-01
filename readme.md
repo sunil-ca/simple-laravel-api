@@ -7,9 +7,9 @@ Following controller contains all the REST API methods:
 
 
 
-Following End-Point will return all the users with role = bar
+#Following End-Point will return all the users with role = bar
 
-##```users?role=bar```
+```users?role=bar```
 
 ```
 {
