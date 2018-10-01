@@ -9,8 +9,9 @@ Following controller contains all the REST API methods:
 
 ### Following End-Point will return all the users with role = bar
 
-```users?role=bar```
+```GET  /users?role=bar```
 
+The response:
 ```
 {
     "msg": "List of Users.",
@@ -30,5 +31,30 @@ Following controller contains all the REST API methods:
             "updated_at": "2018-10-01 03:29:13"
         }
     ]
+}
+```
+
+### Following End-Point will create a user object
+
+```POST  /users```
+
+```
+{
+  "name": "java beans 5",
+  "role": "foo"
+}
+```
+
+The response:
+```
+{
+    "msg": "User Created.",
+    "user": {
+        "id": "c1c66270-c536-11e8-bd76-8d7bde90dcaa",
+        "name": "java beans 5",
+        "role": "foo",
+        "updated_at": "2018-10-01 04:59:20",
+        "created_at": "2018-10-01 04:59:20"
+    }
 }
 ```
