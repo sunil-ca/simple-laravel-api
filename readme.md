@@ -74,7 +74,7 @@ The response:
 }
 ```
 
-### Search End-Point - user for user name
+### Search End-Point - user name search
 
 ```GET /search/bar```
 
