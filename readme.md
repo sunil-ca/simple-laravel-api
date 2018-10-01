@@ -7,4 +7,4 @@ Following controller contains all the REST API methods:
 
 
 
-*users?role=bar*
+```users?role=bar```
