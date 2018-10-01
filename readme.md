@@ -2,7 +2,7 @@
 
 ### Following controller contains all the REST API methods:
 
-      __simple-laravel-api/app/Http/Controllers/usersController.php__
+      simple-laravel-api/app/Http/Controllers/usersController.php
     
 
 
