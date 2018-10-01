@@ -115,6 +115,75 @@ The response:
 }
 ```
 
+### Following End-Point will retrieve all users
+
+```GET /users```
+
+The response:
+```
+{
+    "msg": "List of Users.",
+    "user": [
+        {
+            "id": "24e07fe0-c52a-11e8-bad8-997dffa08900",
+            "name": "cookie bars",
+            "role": "bar",
+            "created_at": "2018-10-01 03:29:03",
+            "updated_at": "2018-10-01 03:29:03"
+        },
+        {
+            "id": "2ac73620-c52a-11e8-9a68-798871eb53d1",
+            "name": "cookie bars",
+            "role": "bar",
+            "created_at": "2018-10-01 03:29:13",
+            "updated_at": "2018-10-01 03:29:13"
+        },
+        {
+            "id": "2ccbf730-c52a-11e8-a1b8-13b4579bb3bc",
+            "name": "cookie bars",
+            "role": "bar",
+            "created_at": "2018-10-01 03:29:16",
+            "updated_at": "2018-10-01 03:29:16"
+        },
+        {
+            "id": "2d938600-c52a-11e8-8fb1-d1c0b6bf1254",
+            "name": "cookie bars",
+            "role": "bar",
+            "created_at": "2018-10-01 03:29:17",
+            "updated_at": "2018-10-01 03:29:17"
+        },
+        {
+            "id": "4e3616d0-c52a-11e8-be27-8930acb90820",
+            "name": "java beans",
+            "role": "foo",
+            "created_at": "2018-10-01 03:30:12",
+            "updated_at": "2018-10-01 03:30:12"
+        },
+        {
+            "id": "53a8b2f0-c533-11e8-a9d1-07733e1761d9",
+            "name": "java beans 4",
+            "role": "foo",
+            "created_at": "2018-10-01 04:34:47",
+            "updated_at": "2018-10-01 04:34:47"
+        },
+        {
+            "id": "5e0de0a0-c52a-11e8-8ca3-df7f5b2ef852",
+            "name": "java beans 2",
+            "role": "foo",
+            "created_at": "2018-10-01 03:30:39",
+            "updated_at": "2018-10-01 03:30:39"
+        },
+        {
+            "id": "617de280-c52a-11e8-a03d-67db1ff6d424",
+            "name": "java beans 2",
+            "role": "foo",
+            "created_at": "2018-10-01 03:30:44",
+            "updated_at": "2018-10-01 03:30:44"
+        }
+    ]
+}
+```
+
 ## To test this REST API - Postman has been used
 
 Create User:
