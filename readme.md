@@ -58,3 +58,18 @@ The response:
     }
 }
 ```
+
+### Following End-Point will retrieve a user object by its ID
+
+```GET /users/ffea3120-c531-11e8-ace2-c551d5c1623a```
+
+The response:
+```
+{
+    "msg": "User Informaion.",
+    "user": {
+        "name": "java beans 4",
+        "role": "foo"
+    }
+}
+```
